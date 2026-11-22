@@ -1,39 +1,13 @@
-# Node dependencies
-node_modules/
-dist/
-dist-ssr/
-*.local
-
-# Python virtual environment
-backend/.venv/
-backend/__pycache__/
-*.py[cod]
-*$py.class
-backend/data/*.json
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-
-# Environment variables
-.env
-.env.*
-!.env.example
-
-# macOS system files
+# macOS
 .DS_Store
-.AppleDouble
-.LSOverride
-Icon
-._*
 
-# IDE settings
-.vscode/
+# Java bytecode & build
+*.class
+out/
+bin/
+target/
+
+# IDE
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# Unrelated files
-thread.java
+*.iml
+.vscode/
